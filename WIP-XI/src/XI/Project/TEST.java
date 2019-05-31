@@ -14,7 +14,6 @@ public class WIPCargo {
         int item = 0;
         int limit = 10;
         int menu = 0;
-        while (limit=10){
         Scanner sc = new Scanner(System.in);
         System.out.println("1 to Add");
         System.out.println("2 to Remove");
@@ -41,11 +40,10 @@ public class WIPCargo {
                 System.out.println("Your amount of item in cago is : " + item);
             } else {
                 System.out.println("โกดังมีน้อยกว่าที่คุณต้องการจะเอาออก");
-            }break;
+            }
         }
         if (menu == 3) {
             System.out.println("Your amount of item in cago is : " + item);
-        }break;
         }
     }
     }
